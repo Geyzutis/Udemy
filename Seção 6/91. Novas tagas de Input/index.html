@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Novas Tags de input html 5</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!--[if lt IE 9]>
+	<script src="html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+	<form>
+		<!--Nome required -->
+		<label for="nome">Nome:</label>
+		<input type="text" name="nome" id="nome"  autofocus>
+		<br><br>
+		<!--EMAIL required -->
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" >  
+		<br><br>
+
+		<label for="url">Url:</label>
+		<input type="url" id="url" placeholder="ex: http://" >  
+		<br><br>
+
+		<label for="numero">Número:</label>
+		<input type="number" name="numero" id="numero" min="0" max="100" step="5">  
+		<br><br>
+
+		<label for="pesquisa">Pesquisa:</label>
+		<input type="search" id="Pesquisa"  >  
+		<br><br>
+
+		<label for="range">Range:</label>
+		<input type="range" id="range" min="1" max="20"	value="10" >  
+		<br><br>
+
+		<label for="data">Data:</label>
+		<input type="date" id="data"  >  
+		<br><br>
+
+		<label for="cor">Cor:</label>
+		<input type="color" id="cor"  >  
+		<br><br>
+
+		<input type="submit" name="" value="Enviar">
+	</form>
+
+</body>
+</html>
